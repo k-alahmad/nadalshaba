@@ -3,34 +3,34 @@ import { data } from "../../../../../data/headerData";
 import { useTranslation } from "react-i18next";
 // import HeaderTextSlider from "./HeaderTextSlider";
 const HeaderT4 = () => {
-  const { t, i18n } = useTranslation();
-  return (
-    <>
-      <div className="w-full h-screen" />
-      <div
-        className=" bg-cover bg-right lg:bg-center bg-no-repeat h-screen w-full max-w-[1920px] top-0 left-0 fixed -z-40"
-        dir={i18n.language == "ar" || i18n.language == "fa" ? "rtl" : "ltr"}
-      >
-        <video
-          autoPlay
-          loop
-          muted
-          id="video"
-          className="absolute w-full h-full object-fill object-center max-lg:hidden"
-          src={data.video[0]}
-          playsInline
-        />
-        <video
-          autoPlay
-          loop
-          muted
-          id="video"
-          className="absolute w-full h-full object-fill object-center lg:hidden"
-          src={data.video[1]}
-          playsInline
-        />
+	const { t, i18n } = useTranslation();
+	return (
+		<>
+			<div className='w-full h-screen' />
+			<div
+				className=' bg-cover bg-right lg:bg-center bg-no-repeat h-screen w-full max-w-[1920px] top-0 left-0 fixed -z-40'
+				dir={i18n.language == "ar" || i18n.language == "fa" ? "rtl" : "ltr"}
+			>
+				<video
+					autoPlay
+					loop
+					muted
+					id='video'
+					className='absolute w-full h-full object-fill object-center max-lg:hidden'
+					src={data.video[0]}
+					playsInline
+				/>
+				<video
+					autoPlay
+					loop
+					muted
+					id='video'
+					className='absolute w-full h-full object-fill object-center lg:hidden'
+					src={data.video[1]}
+					playsInline
+				/>
 
-        {/* <div
+				{/* <div
           className="h-full w-full bg-cover"
           style={{
             background:
@@ -41,9 +41,9 @@ const HeaderT4 = () => {
             <HeaderTextSlider />
           </div>
         </div> */}
-      </div>
-    </>
-  );
+			</div>
+		</>
+	);
 };
 
 export default HeaderT4;

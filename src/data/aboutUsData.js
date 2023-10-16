@@ -1,8 +1,8 @@
-import image from "../assets/images/transparentPalm.png";
+import image from "../assets/images/heroLeft.jpg";
 export const data = {
 	image: image,
 	title: [
-		{ lng: "en", value: "Dubai's New Island of Opportunity “Palm Jebel ALI”" },
+		{ lng: "en", value: "Nad Alshaba Villas" },
 		{ lng: "ar", value: "جزيرة الفرص الجديدة في دبي (نخلة جبل علي)" },
 		{ lng: "fa", value: "Ultimate luxury living Townhouse & Mansions" },
 		{ lng: "ru", value: "Вершина роскошной жизни в таунхаусах и особняках" },
@@ -13,7 +13,7 @@ export const data = {
 				{
 					lng: "en",
 					value:
-						"Palm Jebel Ali, a symbol of luxury, innovation, and grandeur, has once again elevated Dubai's reputation. Offering promising investment prospects and a new lifestyle like no other. Spanning twice the size of previous palms and adding 110 km of coastline, Palm Jebel Ali distinguishes itself with seamless connectivity facilitated by three gateway bridges. This new architectural masterpiece is designed to accommodate up to 35,000 families.",
+						"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore maiores, repellat nemo provident reprehenderit, tempore assumenda error facilis itaque beatae recusandae possimus incidunt doloremque perspiciatis, consectetur quas. Quia, autem assumenda.",
 				},
 				{
 					lng: "ar",
@@ -42,7 +42,7 @@ export const data = {
 				{
 					lng: "en",
 					value:
-						"The island will include seven interconnected islands featuring 80 hotels and resorts ensuring that visitors and residents experience unparalleled luxury. This eco-friendly project showcases Dubai's commitment to sustainability by running 30% of its public facilities on renewable energy.",
+						"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore maiores, repellat nemo provident reprehenderit, tempore assumenda error facilis itaque beatae recusandae possimus incidunt doloremque perspiciatis, consectetur quas. Quia, autem assumenda.",
 				},
 				{
 					lng: "fa",
