@@ -28,7 +28,7 @@ const FloorPlanT3 = () => {
 
             <FloorPlanImageSlider selected={selected} sliderRef={sliderRef3} />
           </div>
-          <div className="flex max-md:flex-col lg:flex-col justify-evenly items-center">
+          <div className="flex max-lg:flex-col lg:flex-col justify-evenly items-center">
             <FloorPlanNavigator
               selected={selected}
               setSelected={setSelected}
