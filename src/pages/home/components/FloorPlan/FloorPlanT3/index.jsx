@@ -16,7 +16,7 @@ const FloorPlanT3 = () => {
         {data.title.find((x) => x.lng == location.pathname.substring(1))?.value}
       </div>
       <div className="lg:grid lg:grid-cols-12 my-12">
-        <div className="col-span-8 bg-secondary hidden lg:block lg:relative">
+        <div className="col-span-8 bg-secondary max-lg:hidden lg:relative">
           <div className="absolute w-full h-ful -top-16">
             <FloorPlanImageSlider selected={selected} sliderRef={sliderRef2} />
           </div>
