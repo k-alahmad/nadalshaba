@@ -57,8 +57,8 @@ export const systemSettings = {
 	colors: {
 		light: {
 			bg: "transparent",
-			primary: "#045256",
-			secondary: "#DDF7F8",
+			primary: "#7D3314",
+			secondary: "#E6E8E6",
 			third: "white",
 			fourth: "rgba(131, 131, 131, 1)",
 			fifth: "#0C769C",
@@ -76,11 +76,11 @@ export const systemSettings = {
 	header: { status: true, template: 1 },
 	paymentPlan: { status: false, template: 3 },
 	about: { status: true, template: 3 },
-	photoGallery: { status: true, template: 2 },
+	photoGallery: { status: true, template: 3 },
 	siteLocation: { status: false, template: 3 },
-	floorPlan: { status: false, template: 3 },
-	nearby: { status: true, template: 1 },
-	register: { status: true, template: 3 },
+	floorPlan: { status: true, template: 3 },
+	nearby: { status: false, template: 1 },
+	register: { status: true, template: 4 },
 	brochure: { status: false, template: 3 },
 	footer: { status: true },
 };

@@ -7,7 +7,7 @@ const HeaderT1 = () => {
 		<>
 			<HeaderSlider />
 			<Header />
-			{/* <HeaderSlidingText /> */}
+			<HeaderSlidingText />
 		</>
 	);
 };

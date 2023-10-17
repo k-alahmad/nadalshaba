@@ -6,8 +6,10 @@ const RegisterComponent =
 		? lazy(() => import("./RegisterT1"))
 		: systemSettings.register.template == 2
 		? lazy(() => import("./RegisterT2"))
-		: systemSettings.register.template == 3 &&
-		  lazy(() => import("./RegisterT3")));
+		: systemSettings.register.template == 3
+		? lazy(() => import("./RegisterT3"))
+		: systemSettings.register.template == 4 &&
+		  lazy(() => import("./RegisterT4")));
 
 const Register = ({ modal }) => {
 	return (

@@ -110,7 +110,7 @@ i18n.use(initReactI18next).init({
 				minutes: "Minutes",
 				nearbyTitle: "EASY ACCESS TO KEY LANDMARKS",
 				nearbySubTitle: "Distinguished Location, Right in the Center of Dubai",
-				slogan: "Pre-book Your Spot on The New Palm",
+				slogan: "Book Your Villa in This Spactacular Location",
 				formSubTitle: "One of Our Agents will contact you very shortly",
 				brochurDownload: "Download Brochur",
 				formFullName: "Full Name",

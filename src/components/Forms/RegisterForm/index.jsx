@@ -29,8 +29,8 @@ const CustomInput = ({
 		<div
 			className={` ${
 				modal
-					? "border-primary border-b-[1px] text-primary"
-					: "border-none backdrop-blur-[400px] rounded-2xl shadow-2xl drop-shadow-2xl text-secondary"
+					? "border-primary border-b-[1px] text-secondary "
+					: "border-none bg-lightBlack/60 backdrop-blur-[400px] rounded-2xl shadow-2xl drop-shadow-2xl text-secondary"
 			} px-4 py-3 flex `}
 		>
 			{icon}
@@ -159,10 +159,10 @@ const RegisterForm = ({ modal }) => {
 				containerClass={` ${
 					modal ? "!border-b-[1px] border-primary" : "border-none"
 				}  px-1 flex`}
-				inputClass={`!bg-transparent !w-full !text-lg !h-full ${
+				inputClass={` !w-full !text-lg !h-full ${
 					modal
-						? "!text-primary"
-						: "!border-none backdrop-blur-[200px] !rounded-2xl !text-secondary"
+						? "!text-primary !border-none !bg-secondary"
+						: "!border-none !bg-lightBlack/60 backdrop-blur-[200px] !rounded-2xl !text-secondary"
 				} ${i18n.language == "en" ? "px-0" : "mx-10"} !outline-none`}
 				buttonClass={`!border-none !text-lg`}
 				buttonStyle={{ direction: "ltr" }}
