@@ -18,11 +18,12 @@ import Studio from "../assets/images/floorplan/Studio.webp";
 import BR1 from "../assets/images/floorplan/1BR.webp";
 import BR2 from "../assets/images/floorplan/2BR.webp";
 import BR3 from "../assets/images/floorplan/3BR.webp";
-import BR4T from "../assets/images/floorplan/4BRT.webp";
-import BR5T from "../assets/images/floorplan/5BRT.webp";
+import Twolvlth from "../assets/images/floorplan/2lvlth.webp";
 import Threelvlth from "../assets/images/floorplan/3lvlth.webp";
-import BR6M from "../assets/images/floorplan/6BRM.webp";
-import BR7M from "../assets/images/floorplan/7BRM.webp";
+import Twolvlsd from "../assets/images/floorplan/2lvlsd.webp";
+import Threelvlsd from "../assets/images/floorplan/3lvlsd.webp";
+import Threelvlvilla from "../assets/images/floorplan/3lvlvilla.webp";
+import Threelvlvilla5br from "../assets/images/floorplan/3lvlvilla5br.webp";
 export const data = {
 	title: [
 		{ lng: "ar", value: "Floor Plan" },
@@ -91,7 +92,7 @@ export const data = {
 			icon: "",
 			plot: "8611 SQ.FT.",
 			total: "2,618 SQ.FT.",
-			img: BR6M,
+			img: Twolvlth,
 			type: [
 				{
 					lng: "ar",
@@ -133,7 +134,7 @@ export const data = {
 			icon: "",
 			plot: "10333 SQ.FT.",
 			total: "4,476 SQ.FT.",
-			img: BR7M,
+			img: Threelvlsd,
 			type: [
 				{
 					lng: "ar",
@@ -175,7 +176,7 @@ export const data = {
 			icon: "",
 			plot: "4219 SQ.FT.",
 			total: "3,074 SQ.FT.",
-			img: BR4T,
+			img: Twolvlsd,
 			type: [
 				{
 					lng: "ar",
@@ -217,7 +218,7 @@ export const data = {
 			icon: "",
 			plot: "3978 SQ.FT.",
 			total: "3,559 SQ.FT.",
-			img: BR5T,
+			img: Threelvlvilla,
 			type: [
 				{
 					lng: "ar",
@@ -259,7 +260,7 @@ export const data = {
 			icon: "",
 			plot: "3978 SQ.FT.",
 			total: "6,567 SQ.FT.",
-			img: BR5T,
+			img: Threelvlvilla5br,
 			type: [
 				{
 					lng: "ar",
