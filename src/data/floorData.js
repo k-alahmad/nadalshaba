@@ -20,7 +20,7 @@ import BR2 from "../assets/images/floorplan/2BR.webp";
 import BR3 from "../assets/images/floorplan/3BR.webp";
 import BR4T from "../assets/images/floorplan/4BRT.webp";
 import BR5T from "../assets/images/floorplan/5BRT.webp";
-import BR5M from "../assets/images/floorplan/5BRM.webp";
+import Threelvlth from "../assets/images/floorplan/3lvlth.webp";
 import BR6M from "../assets/images/floorplan/6BRM.webp";
 import BR7M from "../assets/images/floorplan/7BRM.webp";
 export const data = {
@@ -49,7 +49,7 @@ export const data = {
 			icon: "",
 			plot: "7233 SQ.FT.",
 			total: "3,775 SQ.FT.",
-			img: BR5M,
+			img: Threelvlth,
 			type: [
 				{
 					lng: "ar",

@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { MdLocationOn } from "react-icons/md";
 import { data } from "../../../../data/registerData";
 import RegisterForm from "../../../Forms/RegisterForm";
-import BG from "../../../../assets/images/bg.jpg";
+import BG from "../../../../assets/images/external/3.webp";
 const SocialElement = ({ icon, name, modal }) => {
 	return (
 		<div className='flex items-center'>
