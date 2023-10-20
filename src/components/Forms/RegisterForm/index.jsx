@@ -143,7 +143,7 @@ const RegisterForm = ({ modal }) => {
 				type='text'
 				className='hidden'
 				name={"project"}
-				value='Nad Alshaba Landingpage'
+				value='Nad Al Sheba Landingpage'
 				readOnly
 			/>
 			<PhoneInput

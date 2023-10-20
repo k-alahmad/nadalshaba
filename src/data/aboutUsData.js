@@ -2,7 +2,7 @@ import image from "../assets/images/about.webp";
 export const data = {
 	image: image,
 	title: [
-		{ lng: "en", value: "Nad Alshaba Villas" },
+		{ lng: "en", value: "Nad Al Sheba Villas" },
 		{ lng: "ar", value: "فلل مشروع ند الشبا" },
 		{ lng: "fa", value: "Ultimate luxury living Townhouse & Mansions" },
 		{ lng: "ru", value: "Вершина роскошной жизни в таунхаусах и особняках" },

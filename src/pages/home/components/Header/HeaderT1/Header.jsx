@@ -53,7 +53,7 @@ const Header = () => {
 				<div className='col-span-4 px-[5%] relative z-10'>
 					{/* {systemSettings.darkMode ? (
 						<div className='text-huge -mt-10 bg-secondary text-primary text-center font-semibold'>
-							Nad Alshaba
+							Nad Al Sheba
 						</div>
 					) : (
 						<div className='z-50'>
