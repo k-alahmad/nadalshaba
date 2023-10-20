@@ -8,7 +8,10 @@ const ThankYou = () => {
 		navigate("/");
 	};
 	const navigateAuto = useNavigate();
-
+	window.gtag("G-TKD3LN2FB4");
+	window.gtag("event", "conversion", {
+		send_to: "AW-10949806463/UEWbCKCjyOIYEP-So-Uo",
+	});
 	useEffect(() => {
 		setTimeout(() => {
 			navigateAuto("/");
