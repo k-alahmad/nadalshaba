@@ -120,92 +120,8 @@ export const data = {
 		{
 			btnTitle: "3",
 			btnSubTitle: [
-				{ lng: "ar", value: "LEVEL SEMI-DETACHED" },
-				{ lng: "en", value: "LEVEL SEMI-DETACHED" },
-				{ lng: "ru", value: "Ком Особняк" },
-				{ lng: "fa", value: "BR Mansion" },
-			],
-			title: [
-				{ lng: "ar", value: "3 Bedroom + Family" },
-				{ lng: "en", value: "3 Bedroom + Family" },
-				{ lng: "ru", value: "7 Ком Особняк" },
-				{ lng: "fa", value: "7 BR MANSION" },
-			],
-			icon: "",
-			plot: "10333 SQ.FT.",
-			total: "4,476 SQ.FT.",
-			img: Threelvlsd,
-			type: [
-				{
-					lng: "ar",
-					value: "TYPE C (with powder room + balcony) - VARIANT 2",
-				},
-				{
-					lng: "en",
-					value: "TYPE C (with powder room + balcony) - VARIANT 2",
-				},
-				{
-					lng: "ru",
-					value: "TYPE C (with powder room + balcony) - VARIANT 2",
-				},
-				{
-					lng: "fa",
-					value: "TYPE C (with powder room + balcony) - VARIANT 2",
-				},
-			],
-
-			color: "#88D2D7",
-			balcony: "59.09 SQ.FT.",
-			suite: "785.12 SQ.FT.",
-			bedRoomNumber: 1,
-		},
-		{
-			btnTitle: "2",
-			btnSubTitle: [
-				{ lng: "ar", value: "LEVEL SEMI-DETACHED" },
-				{ lng: "en", value: "LEVEL SEMI-DETACHED" },
-				{ lng: "ru", value: "Ком Таунхаус" },
-				{ lng: "fa", value: "BR Tounhouse" },
-			],
-			title: [
-				{ lng: "ar", value: "3 Bedroom" },
-				{ lng: "en", value: "3 Bedroom" },
-				{ lng: "ru", value: "4 Ком Таунхаус" },
-				{ lng: "fa", value: "4 BR Townhouse" },
-			],
-			icon: "",
-			plot: "4219 SQ.FT.",
-			total: "3,074 SQ.FT.",
-			img: Twolvlsd,
-			type: [
-				{
-					lng: "ar",
-					value: "TYPE C (with powder room + balcony) - VARIANT 2",
-				},
-				{
-					lng: "en",
-					value: "TYPE C (with powder room + balcony) - VARIANT 2",
-				},
-				{
-					lng: "ru",
-					value: "TYPE C (with powder room + balcony) - VARIANT 2",
-				},
-				{
-					lng: "fa",
-					value: "TYPE C (with powder room + balcony) - VARIANT 2",
-				},
-			],
-
-			color: "#88D2D7",
-			balcony: "59.09 SQ.FT.",
-			suite: "785.12 SQ.FT.",
-			bedRoomNumber: 1,
-		},
-		{
-			btnTitle: "3",
-			btnSubTitle: [
-				{ lng: "ar", value: "LEVEL VILLA" },
-				{ lng: "en", value: "LEVEL VILLA" },
+				{ lng: "ar", value: "LEVEL VILLA (4BR)" },
+				{ lng: "en", value: "LEVEL VILLA (4BR)" },
 				{ lng: "ru", value: "Ком Таунхаус" },
 				{ lng: "fa", value: "BR Tounhouse" },
 			],
@@ -246,8 +162,8 @@ export const data = {
 		{
 			btnTitle: "3",
 			btnSubTitle: [
-				{ lng: "ar", value: "LEVEL VILLA" },
-				{ lng: "en", value: "LEVEL VILLA" },
+				{ lng: "ar", value: "LEVEL VILLA (5BR)" },
+				{ lng: "en", value: "LEVEL VILLA (5BR)" },
 				{ lng: "ru", value: "Ком Таунхаус" },
 				{ lng: "fa", value: "BR Tounhouse" },
 			],
