@@ -13,20 +13,20 @@ const HeaderSlidingText = () => {
             (title) => title.lng == location.pathname.substring(1)
           )?.value
         : data.titles[2][0].value;
-
     let headerTitle = tempTitle?.split(" ");
-
     setTitle(headerTitle);
-  }, []);
+  }, [data]);
 
   return (
-    <div className="text-9xl bg-transparent text-primary overflow-hidden  -mt-[350px] max-md:hidden">
-      <p className="animate-textCamera relative whitespace-nowrap py-4">
-        {title[0]}
-        <span className="border-text text-transparent">{` ${title[1]} `}</span>
-        {title[2]}
-      </p>
-    </div>
+    title?.length !== 0 && (
+      <div className="text-9xl bg-transparent text-primary overflow-hidden -mt-[350px] max-md:hidden">
+        <p className="animate-textCamera relative whitespace-nowrap py-4">
+          {title[0]}
+          <span className="border-text text-transparent">{` ${title[1]} `}</span>
+          {title[2]}
+        </p>
+      </div>
+    )
   );
 };
 
