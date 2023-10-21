@@ -7,26 +7,34 @@ const HeaderSlidingText = () => {
   const [title, setTitle] = useState([]);
 
   useEffect(() => {
-    let tempTitle =
-      systemSettings.availableLanguages.length > 1
-        ? data.titles[2].find(
-            (title) => title.lng == location.pathname.substring(1)
-          )?.value
-        : data.titles[2][0].value;
-    let headerTitle = tempTitle?.split(" ");
-    setTitle(headerTitle);
-  }, [data]);
+    let pathName =
+      location.pathname == "/" ? "en" : location.pathname.substring(1);
+    if (pathName) {
+      let tempTitle =
+        systemSettings.availableLanguages.length > 1
+          ? data.titles[2].find((title) => title.lng == pathName).value
+          : data.titles[2][0].value;
+      setTitle(tempTitle.split(" "));
+    }
+  }, [data, location.pathname]);
 
   return (
-    title?.length !== 0 && (
-      <div className="text-9xl bg-transparent text-primary overflow-hidden -mt-[350px] max-md:hidden">
-        <p className="animate-textCamera relative whitespace-nowrap py-4">
-          {title[0]}
-          <span className="border-text text-transparent">{` ${title[1]} `}</span>
-          {title[2]}
-        </p>
-      </div>
-    )
+    <div className="text-9xl bg-transparent text-primary overflow-hidden -mt-[350px] max-md:hidden">
+      <p className="animate-textCamera relative whitespace-nowrap py-4">
+        {title.map((item, index) => {
+          if (index == 1)
+            return (
+              <span
+                key={index}
+                className="border-text text-transparent"
+              >{` ${item} `}</span>
+            );
+          else {
+            return <span key={index}>{item}</span>;
+          }
+        })}
+      </p>
+    </div>
   );
 };
 
