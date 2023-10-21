@@ -14,7 +14,7 @@ const HeaderSlidingText = () => {
           )?.value
         : data.titles[2][0].value;
 
-    let headerTitle = tempTitle.split(" ");
+    let headerTitle = tempTitle?.split(" ");
 
     setTitle(headerTitle);
 
