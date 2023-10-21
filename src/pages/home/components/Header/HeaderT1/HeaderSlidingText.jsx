@@ -17,8 +17,6 @@ const HeaderSlidingText = () => {
     let headerTitle = tempTitle?.split(" ");
 
     setTitle(headerTitle);
-
-    console.log(headerTitle);
   }, []);
 
   return (
