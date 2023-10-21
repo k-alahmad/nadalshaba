@@ -1,10 +1,10 @@
-import heroLeft from "../assets/images/heroLeft.jpg";
-import heroMiddle from "../assets/images/heroMiddle.jpg";
-import heroRight from "../assets/images/heroRight.jpg";
+import heroLeft from "../assets/images/heroLeft.webp";
+import heroMiddle from "../assets/images/heroMiddle.webp";
+import heroRight from "../assets/images/heroRight.webp";
 import Riverside from "../assets/images/330Riverside.svg";
-import HeroBottom1 from "../assets/images/heroBottom.jpg";
+import HeroBottom1 from "../assets/images/heroBottom.webp";
 import HeroBottom from "../assets/images/main.webp";
-import PalmJebelAli from "../assets/images/7.jpg";
+import PalmJebelAli from "../assets/images/about.webp";
 import headerWave from "../assets/images/headerCurve3.svg";
 import handover from "../assets/icons/handover.svg";
 import price from "../assets/icons/banknotes.png";
@@ -118,13 +118,13 @@ export const data = {
 	// this will be filled if the design is like 330
 	titles: [
 		[
-			{ lng: "ar", value: "انغمس في تجربة تناشد الحواس" },
+			{ lng: "ar", value: "حياة خارجة عن المألوف" },
 			{ lng: "en", value: "LIFE OUTSIDE THE ORDINARY" },
 			{ lng: "fa", value: "پرده برداری از یک تجربه منحصر به فرد" },
 			{ lng: "ru", value: "Unveil a soul-stirring experience" },
 		],
 		[
-			{ lng: "ar", value: "مناظر خلاّبة تأسر القلوب" },
+			{ lng: "ar", value: "حي يتدفق مع الحياة نفسها" },
 			{
 				lng: "en",
 				value: "A NEIGHBOURHOOD THAT FLOWS WITH LIFE ITSELF",
@@ -145,12 +145,12 @@ export const data = {
 			{
 				lng: "ar",
 				value:
-					"و تنعّم بإقامة باعثة على الاسترخاء حيث تحيط بك المياه الرقراقة من كلّ حدبٍ و صوب",
+					"اكتشف مجتمع الفلل الاستثنائي الذي يلبي أنماط الحياة المتنوعة، ويقدم مجموعة كبيرة من المرافق الترفيهية والعافية، بدءًا من مروج اليوغا إلى المسارح الخارجية، وكلها تقع ضمن مناظر طبيعية مورقة.",
 			},
 			{
 				lng: "en",
 				value:
-					"as you surrender to the enchanting call of the water in your vicinity",
+					"Discover an exceptional villa community that caters to diverse lifestyles, offering a wealth of recreational and wellness facilities, from yoga lawns to outdoor theaters, all nestled within a lush natural landscape.",
 			},
 			{ lng: "fa", value: "دید ابدی به دریاچه و فضای سبز" },
 			{
@@ -163,12 +163,12 @@ export const data = {
 			{
 				lng: "ar",
 				value:
-					"تم تصميم المجمّع على شكل هلال مدبّب و ينعكس تصميمه الرائع بأبهى حلّة على المياه المتلألئة, حيث يمكنك أن تمتّع ناظريك بأروع الإطلالات بينما تستمع بإقامة في مسكن ينضح فخامة.",
+					"اختبر إرثًا حيًا راقيًا حيث تزدهر كل لحظة خيالية، وتعزز الوفرة والانسجام، وحيث تشجع الطرق والمسارات المخصصة للمشي على أسلوب حياة نشط وحيوي.",
 			},
 			{
 				lng: "en",
 				value:
-					"A neighbourhood designed to flow around the people who live there.",
+					"Experience an elevated living legacy where every visionary moment thrives, fostering abundance and harmony, and where walkable roads and tracks encourage an active and vibrant lifestyle.",
 			},
 			{
 				lng: "fa",

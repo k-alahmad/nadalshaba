@@ -24,6 +24,12 @@ import E4 from "../assets/images/External/4.webp";
 import E5 from "../assets/images/External/5.webp";
 import E6 from "../assets/images/External/6.webp";
 import E7 from "../assets/images/External/7.webp";
+import E8 from "../assets/images/External/8.webp";
+import E9 from "../assets/images/External/9.webp";
+import E10 from "../assets/images/External/10.webp";
+import E11 from "../assets/images/External/11.webp";
+import E12 from "../assets/images/External/12.webp";
+import E13 from "../assets/images/External/13.webp";
 // import E8 from "../assets/images/External/8.webp";
 // import E9 from "../assets/images/External/9.webp";
 // import E10 from "../assets/images/External/10.webp";
@@ -196,6 +202,103 @@ export const data = {
 							lng: "ar",
 							value:
 								"مصمم بطريقة تعكس روح المجتمع و تضيف طابع الحنية على المكان",
+						},
+						{ lng: "fa", value: "Photo Gallery" },
+						{ lng: "ru", value: "Фотогалерея" },
+					],
+				},
+				{
+					img: E8,
+					text: [
+						{
+							lng: "en",
+							value: "Luxury experiences ",
+						},
+						{
+							lng: "ar",
+							value: "تجربة فاخرة",
+						},
+						{ lng: "fa", value: "Photo Gallery" },
+						{ lng: "ru", value: "Фотогалерея" },
+					],
+				},
+				{
+					img: E9,
+					text: [
+						{
+							lng: "en",
+							value: "SPACIOUS | CAPTIVATING | PRESTIGIOUS",
+						},
+						{
+							lng: "ar",
+							value: "مساحات واسعة | مناظر خلابة | آناقة ",
+						},
+						{ lng: "fa", value: "Photo Gallery" },
+						{ lng: "ru", value: "Фотогалерея" },
+					],
+				},
+				{
+					img: E10,
+					text: [
+						{
+							lng: "en",
+							value:
+								"Whether you're chasing personal fitness goals or clearing your mind, the running track wins first place for both physical activity and natural beauty.",
+						},
+						{
+							lng: "ar",
+							value:
+								"سواء كنت تسعى لتحقيق أهداف اللياقة البدنية الشخصية أو تصفية ذهنك، فإن مضمار الجري يفوز بالمركز الأول لكل من النشاط البدني والجمال الطبيعي.",
+						},
+						{ lng: "fa", value: "Photo Gallery" },
+						{ lng: "ru", value: "Фотогалерея" },
+					],
+				},
+				{
+					img: E11,
+					text: [
+						{
+							lng: "en",
+							value:
+								"Elevated amenities offer space for precious family moments",
+						},
+						{
+							lng: "ar",
+							value:
+								"وسائل راحة متميزة لتوفير مساحة للحظات العائلية التي لا تقدر بثمن",
+						},
+						{ lng: "fa", value: "Photo Gallery" },
+						{ lng: "ru", value: "Фотогалерея" },
+					],
+				},
+				{
+					img: E12,
+					text: [
+						{
+							lng: "en",
+							value: "Designed with the nostalgic spirit of community in mind.",
+						},
+						{
+							lng: "ar",
+							value:
+								"مصمم بطريقة تعكس روح المجتمع و تضيف طابع الحنية على المكان",
+						},
+						{ lng: "fa", value: "Photo Gallery" },
+						{ lng: "ru", value: "Фотогалерея" },
+					],
+				},
+				{
+					img: E13,
+					text: [
+						{
+							lng: "en",
+							value:
+								"Hardwood floors, porcelain countertops and beautiful aluminium finishes",
+						},
+						{
+							lng: "ar",
+							value:
+								"أرضيات من الخشب الصلب وأسطح من البورسلين وتشطيبات جميلة من الألومنيوم ",
 						},
 						{ lng: "fa", value: "Photo Gallery" },
 						{ lng: "ru", value: "Фотогалерея" },

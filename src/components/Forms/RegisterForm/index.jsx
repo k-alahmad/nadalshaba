@@ -61,7 +61,7 @@ const RegisterForm = ({ modal }) => {
 		emailjs
 			.sendForm(
 				"service_5wdnu6j",
-				"template_0fecgqj",
+				"template_slqqcpm",
 				form.current,
 				"sxh5TJan60LQqD6Sw",
 			)
@@ -79,7 +79,7 @@ const RegisterForm = ({ modal }) => {
 		let formData = new FormData(form.current);
 		try {
 			const response = await fetch(
-				"https://hooks.zapier.com/hooks/catch/12792925/3r0kakh/",
+				"https://hooks.zapier.com/hooks/catch/12792925/383v6oq/",
 				{
 					method: "POST",
 					body: formData,
@@ -143,7 +143,7 @@ const RegisterForm = ({ modal }) => {
 				type='text'
 				className='hidden'
 				name={"project"}
-				value='AVA Palm Jebel ALI'
+				value='Nad Al Sheba Landingpage'
 				readOnly
 			/>
 			<PhoneInput

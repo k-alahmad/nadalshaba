@@ -45,7 +45,7 @@ i18n.use(initReactI18next).init({
 				nearbyTitle: "وصول سهل الى المعالم الرئيسية",
 				nearbySubTitle:
 					"موقع مميز في قلب دبي يوفر سهولة الوصول الى معظم المعالم الرئيسية",
-				slogan: "احجز موقعك مسبقا على نخلة جبل علي",
+				slogan: "احجز فيلتك في هذا الموقع المذهل",
 				formSubTitle: "أحد عملائنا سيقوم بالاتصال بك باسرع وقت",
 				brochurDownload: "تحميل الكتيب",
 				formFullName: "الاسم الكامل",
@@ -112,7 +112,7 @@ i18n.use(initReactI18next).init({
 				nearbySubTitle: "Distinguished Location, Right in the Center of Dubai",
 				slogan: "Book Your Villa in This Spactacular Location",
 				formSubTitle: "One of Our Agents will contact you very shortly",
-				brochurDownload: "Download Brochur",
+				brochurDownload: "Download Brochure",
 				formFullName: "Full Name",
 				formPhoneNumber: "Phone Number",
 				formEmail: "Email",
@@ -131,7 +131,7 @@ i18n.use(initReactI18next).init({
 				address:
 					" Office 609, Clover Bay Tower - 6a Marasi Dr - Business Bay - Dubai",
 				locationTitle: "Site Location Masterplan",
-				brochurMSG: "Please Register to Download the Brochur",
+				brochurMSG: "Please Register to Download the Brochure",
 			},
 		},
 		fa: {

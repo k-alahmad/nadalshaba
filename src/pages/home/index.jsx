@@ -13,13 +13,13 @@ const Home = () => {
 	return (
 		<>
 			<Head
-				title={"Palm Jebel ALI"}
+				title={"NAD AL SHEBA"}
 				desc={
-					"Palm Jebel Ali, Dubai's epitome of luxury and innovation. Explore investment opportunities and a unique lifestyle, boasting 110 km of coastline and eco-friendly amenities."
+					"Discover an exceptional villa community that caters to diverse lifestyles, offering a wealth of recreational and wellness facilities, from yoga lawns to outdoor theaters, all nestled within a lush natural landscape. Experience an elevated living legacy where every visionary moment thrives, fostering abundance and harmony, and where walkable roads and tracks encourage an active and vibrant lifestyle."
 				}
 				canonicalLink={"/"}
 				keywords={
-					"Palm Jebel Ali, Dubai luxury island, Investment prospects, Unique lifestyle, 110 km coastline, Eco-friendly project, Sustainability commitment, 80 hotels and resorts, Seamless connectivity, Gateway bridges, AVA Real Estate, Nakheel, Palm Jumeirah, Dubai artificail islands, Dubai new palm, size of new palm, twice the size of palm jumeirah, hh sheikh mohammed bin rashid al maktoum palm jebel ali, Villas, Plot, Apartments, Off plan, water front, Sohba, Emaar, townhouse, Meraas, Dubai property, investment, Dubai Real Estate"
+					"Nad Al Sheba Garden Townhouses, Dubai real estate, Townhouse properties, Luxury homes, Residential development, Modern architecture, Gated community, Family-friendly, Green spaces, Community amenities, Investment opportunities, Contemporary design, Spacious living, Prime location, Lifestyle living, Premium real estate, Property investment, Dubai property market, Landscaped gardens, Dubai Real Estate, AVA Real Estate"
 				}
 			/>
 			<Header />

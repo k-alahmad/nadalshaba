@@ -1,9 +1,9 @@
-import image from "../assets/images/heroLeft.jpg";
+import image from "../assets/images/about.webp";
 export const data = {
 	image: image,
 	title: [
-		{ lng: "en", value: "Nad Alshaba Villas" },
-		{ lng: "ar", value: "جزيرة الفرص الجديدة في دبي (نخلة جبل علي)" },
+		{ lng: "en", value: "Nad Al Sheba Villas" },
+		{ lng: "ar", value: "فلل مشروع ند الشبا" },
 		{ lng: "fa", value: "Ultimate luxury living Townhouse & Mansions" },
 		{ lng: "ru", value: "Вершина роскошной жизни в таунхаусах и особняках" },
 	],
@@ -13,12 +13,12 @@ export const data = {
 				{
 					lng: "en",
 					value:
-						"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore maiores, repellat nemo provident reprehenderit, tempore assumenda error facilis itaque beatae recusandae possimus incidunt doloremque perspiciatis, consectetur quas. Quia, autem assumenda.",
+						"Nad Al Sheba Gardens, situated in Dubai, offers an upscale residential community known for its strategic location, enhanced security measures, and a wide array of high-end amenities. The community boasts iconic recreational spaces, upscale villas, and townhouses, making it an attractive option for residents seeking luxury living.",
 				},
 				{
 					lng: "ar",
 					value:
-						"تقف نخلة جبل علي كأيقونة جديدة للفخامة و الابتكار و العظمة في دبي لتسلط الضوء على الانجازات المستمرة لدولة الامارات العربية المتحدة . تمتد هذه النخلة على مساحة 13.4 كم مربع و بحجم مضاعف عن ما سبقها لتضيف 110 كم على الشريط الساحلي لدبي. وستضم الجزيرة سبع جزر مترابطة بثلاثة جسور تسمح بالوصول السهل لجميع اجزائها. تحتوي على 80 فندق ومنتجع، مما يضمن حصول الزوار والمقيمين على تجربة فاخرة لا مثيل لها. تم تصميم هذه التحفة المعمارية لاستيعاب ما يقارب 35 الف عائلة. .",
+						"تقع حدائق ند الشبا في دبي، وتوفر مجتمعًا سكنيًا راقيًا معروف بموقعه الاستراتيجي وإجراءات أمنية معززة ومجموعة واسعة من وسائل الراحة الراقية. يتميز المجتمع بمساحات ترفيهية مميزة وفلل راقية ومنازل تاون هاوس، مما يجعله خيارًا جذابًا للمقيمين الذين يبحثون عن حياة فاخرة.",
 				},
 				{
 					lng: "fa",
@@ -37,12 +37,12 @@ export const data = {
 				{
 					lng: "ar",
 					value:
-						" بحيث توفر هذه النخلة آفاق استثمارية و نمط حياة فريد و مميز. بالاضافة لما سبق يجسد هذا المشروع الصديق للبيئة التزام دبي بالاستدامة من خلال تشغيل 30% من مرافقها العامة بالطاقة المتجددة",
+						"بفضل سهولة الوصول إلى أجزاء مختلفة من المدينة، يقدم المجتمع إمكانات استثمارية ممتازة في سوق العقارات المزدهر في دبي.",
 				},
 				{
 					lng: "en",
 					value:
-						"Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore maiores, repellat nemo provident reprehenderit, tempore assumenda error facilis itaque beatae recusandae possimus incidunt doloremque perspiciatis, consectetur quas. Quia, autem assumenda.",
+						" With its convenient access to various parts of the city, the community presents an excellent investment potential in the thriving Dubai real estate market.",
 				},
 				{
 					lng: "fa",
