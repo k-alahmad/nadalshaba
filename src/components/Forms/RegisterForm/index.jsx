@@ -29,7 +29,7 @@ const CustomInput = ({
 		<div
 			className={` ${
 				modal
-					? "border-primary border-b-[1px] text-secondary "
+					? "border-primary border-b-[1px] text-primary "
 					: "border-none bg-lightBlack/60 backdrop-blur-[400px] rounded-2xl shadow-2xl drop-shadow-2xl text-secondary"
 			} px-4 py-3 flex `}
 		>
