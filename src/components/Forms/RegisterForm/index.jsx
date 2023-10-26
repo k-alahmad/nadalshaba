@@ -12,6 +12,7 @@ import {
 	counterIsFull,
 	selectDownloadState,
 	selectRegisterState,
+	selectListRegisterState,
 } from "../../../redux/modal.slice";
 import { useTranslation } from "react-i18next";
 import { systemSettings } from "../../../settings";
@@ -56,6 +57,7 @@ const RegisterForm = ({ modal }) => {
 	const form = useRef();
 	const downloadState = useSelector(selectDownloadState);
 	const registerState = useSelector(selectRegisterState);
+	const listRegister = useSelector(selectListRegisterState);
 	const sendEmail = (e) => {
 		e.preventDefault();
 		emailjs
@@ -77,28 +79,42 @@ const RegisterForm = ({ modal }) => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		let formData = new FormData(form.current);
+		console.log(listRegister);
+
 		try {
-			const response = await fetch(
-				"https://hooks.zapier.com/hooks/catch/12792925/383v6oq/",
-				{
+			let sameEmail = listRegister.find((element) => {
+				return element.email == form.current.email.value;
+			});
+			let samePhone = listRegister.find((element) => {
+				return element.phone == form.current.phone.value;
+			});
+			if (!sameEmail && !samePhone) {
+				const response = await fetch(import.meta.env.VITE_ZAPPIER_URL, {
 					method: "POST",
 					body: formData,
 					"Content-Type": "multipart/form-data",
-				},
-			);
-			const result = response.json();
-			console.log("Success:", result);
-			sendEmail(e);
-			if (downloadState) {
-				let alink = document.createElement("a");
-				alink.href = brochureData.file;
-				alink.download = "BrochurePdf.pdf";
-				alink.click();
+				});
+				const result = response.json();
+				console.log("Success:", result);
+				sendEmail(e);
+				if (downloadState) {
+					let alink = document.createElement("a");
+					alink.href = brochure.file;
+					alink.download = "BrochurePdf.pdf";
+					alink.click();
+				}
+				dispatch(
+					register({
+						email: form.current.email.value,
+						phoneNo: form.current.phone.value,
+					}),
+				);
+				dispatch(counterIsFull());
+				dispatch(hideModal());
+				navigate("/thankyou");
+			} else {
+				alert("We Already Have a registration with this data");
 			}
-			dispatch(register());
-			dispatch(counterIsFull());
-			dispatch(hideModal());
-			navigate("/thankyou");
 		} catch (error) {
 			console.error("Error here:", error);
 		}
